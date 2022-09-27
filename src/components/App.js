@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div id="main">
-      <button id="click" onclick={showFn}>
+      <button id="click" onClick={showFn}>
         Click
       </button>
       {show && (
